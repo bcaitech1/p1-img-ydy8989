@@ -1,4 +1,4 @@
-# pstage_01_image_classification : 마스크 이미지 분류 task
+# Image_Classification : 마스크 이미지 분류 task
 
 ## Task Description
 
@@ -14,7 +14,7 @@
 
 - ***Metric :*** F1 Score
 
-- ***LeaderBoard :*** 152/223등
+- ***Leader Board :*** 
 
 	- Public LB. F1 0.6800, Accuracy 74.4300%
 	- Private LB. F1 0.6738, Accuracy 73.9841%
@@ -51,8 +51,7 @@ p1-img-ydy8989>
 ### File overview
 
 - `src`
-
-	- `dataset.py` : 베이스라인 데이터셋 클래스 두 개(기본 베이스라인 클래스, 사람 기준으로 나누는 데이터셋 클래스)와 multilabel을 위한 custom dataset class
+	- `dataset.py` : 베이스라인 데이터셋 클래스 두 개(기본 베이스라인 클래스, 사람 기준으로 나누는 데이터셋 클래스)와 multilabel을 위한 custom dataset class  
 	- `evaluation.py` : evaluation print
 	- `inference.py` : 기본 inference 방식 + 멀티 레이블 방식의 모델을 inference
 	- `loss.py` : custom loss를 포함한 여러가지 loss 함수 클래스들`model.py` :
@@ -60,8 +59,10 @@ p1-img-ydy8989>
 	- `optimizer.py` : 옵티마이저 클래스 모듈(AdamP, RAdam)
 	- `train.py` : single model 학습 실행
 	- `train_multilabel.py` : multilabel model 학습 실행
+- `winner_code` : Competition winner's code
+- `wrap_up` : 대회를 진행하면서 경험했던 내용들에 대한 랩업 리포트입니다.
 
-	
+
 
 ## Dependencies
 
